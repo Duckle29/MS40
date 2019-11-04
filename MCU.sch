@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:MMboard1-cache
-EELAYER 30 0
+LIBS:mystic_split40-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -450,75 +450,75 @@ Connection ~ 3500 1150
 $Comp
 L Device:Buzzer BZ1
 U 1 1 5DD85748
-P 5175 5550
+P 5200 5925
 AR Path="/5DCB7F8C/5DD85748" Ref="BZ1"  Part="1" 
 AR Path="/5E0F7128/5DD85748" Ref="BZ3"  Part="1" 
-F 0 "BZ1" H 5328 5579 50  0000 L CNN
-F 1 "Buzzer_magnetic" H 5025 5375 50  0000 L CNN
-F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 5150 5650 50  0001 C CNN
-F 3 "~" V 5150 5650 50  0001 C CNN
-	1    5175 5550
+F 0 "BZ1" H 5353 5954 50  0000 L CNN
+F 1 "Buzzer_magnetic" H 5050 5750 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 5175 6025 50  0001 C CNN
+F 3 "~" V 5175 6025 50  0001 C CNN
+	1    5200 5925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Buzzer BZ2
 U 1 1 5DD864ED
-P 5175 6025
+P 5200 6400
 AR Path="/5DCB7F8C/5DD864ED" Ref="BZ2"  Part="1" 
 AR Path="/5E0F7128/5DD864ED" Ref="BZ4"  Part="1" 
-F 0 "BZ2" H 5327 6054 50  0000 L CNN
-F 1 "Buzzer_piezo" H 5025 6250 50  0000 L CNN
-F 2 "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ" V 5150 6125 50  0001 C CNN
-F 3 "~" V 5150 6125 50  0001 C CNN
-	1    5175 6025
+F 0 "BZ2" H 5352 6429 50  0000 L CNN
+F 1 "Buzzer_piezo" H 5050 6625 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ" V 5175 6500 50  0001 C CNN
+F 3 "~" V 5175 6500 50  0001 C CNN
+	1    5200 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R12
 U 1 1 5DD86EB4
-P 4975 5450
+P 5000 5825
 AR Path="/5DCB7F8C/5DD86EB4" Ref="R12"  Part="1" 
 AR Path="/5E0F7128/5DD86EB4" Ref="R22"  Part="1" 
-F 0 "R12" V 4825 5450 50  0000 C CNN
-F 1 "220R" V 4900 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4975 5450 50  0001 C CNN
-F 3 "~" H 4975 5450 50  0001 C CNN
-	1    4975 5450
+F 0 "R12" V 4850 5825 50  0000 C CNN
+F 1 "220R" V 4925 5825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 5825 50  0001 C CNN
+F 3 "~" H 5000 5825 50  0001 C CNN
+	1    5000 5825
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5075 5650 5000 5650
+	5100 6025 5025 6025
 Wire Wire Line
-	5000 5650 5000 6125
+	5025 6025 5025 6500
 Wire Wire Line
-	5000 6125 5075 6125
+	5025 6500 5100 6500
 Wire Wire Line
-	5075 5925 4825 5925
+	5100 6300 4850 6300
 Wire Wire Line
-	4825 5925 4825 5450
+	4850 6300 4850 5825
 Wire Wire Line
-	4825 5450 4875 5450
+	4850 5825 4900 5825
 Wire Wire Line
-	4825 5925 4775 5925
-Connection ~ 4825 5925
-Text Label 4775 5925 2    50   ~ 0
+	4850 6300 4800 6300
+Connection ~ 4850 6300
+Text Label 4800 6300 2    50   ~ 0
 buzz
 $Comp
 L power:GND #PWR0119
 U 1 1 5DD8FD53
-P 5000 6175
+P 5025 6550
 AR Path="/5DCB7F8C/5DD8FD53" Ref="#PWR0119"  Part="1" 
 AR Path="/5E0F7128/5DD8FD53" Ref="#PWR0145"  Part="1" 
-F 0 "#PWR0119" H 5000 5925 50  0001 C CNN
-F 1 "GND" H 5005 6002 50  0000 C CNN
-F 2 "" H 5000 6175 50  0001 C CNN
-F 3 "" H 5000 6175 50  0001 C CNN
-	1    5000 6175
+F 0 "#PWR0119" H 5025 6300 50  0001 C CNN
+F 1 "GND" H 5030 6377 50  0000 C CNN
+F 2 "" H 5025 6550 50  0001 C CNN
+F 3 "" H 5025 6550 50  0001 C CNN
+	1    5025 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 6175 5000 6125
-Connection ~ 5000 6125
+	5025 6550 5025 6500
+Connection ~ 5025 6500
 $Comp
 L Connector_Generic:Conn_01x03 J17
 U 1 1 5DD9BB04
@@ -557,9 +557,9 @@ Wire Wire Line
 	4100 6225 4050 6225
 Text Label 4050 6225 2    50   ~ 0
 WS2812_out
-Text Label 3275 7100 0    50   ~ 0
+Text Label 3450 7100 2    50   ~ 0
 SDA
-Text Label 3275 7000 0    50   ~ 0
+Text Label 3450 7000 2    50   ~ 0
 SCL
 Text Label 3900 7000 2    50   ~ 0
 Rr_2
@@ -838,12 +838,12 @@ $EndComp
 Wire Wire Line
 	4850 1850 4750 1850
 Wire Wire Line
-	3450 7000 3225 7000
+	3450 7000 3300 7000
 Wire Wire Line
-	3225 7100 3450 7100
-Text HLabel 3225 7000 0    50   UnSpc ~ 0
+	3300 7100 3450 7100
+Text HLabel 3300 7000 0    50   UnSpc ~ 0
 SCL
-Text HLabel 3225 7100 0    50   UnSpc ~ 0
+Text HLabel 3300 7100 0    50   UnSpc ~ 0
 SDA
 $Comp
 L Device:Crystal_GND2_Small Y1
@@ -1023,29 +1023,8 @@ F 3 "~" H 5125 7610 50  0001 C CNN
 	1    5125 7350
 	1    0    0    -1  
 $EndComp
-Text Label 4825 7450 2    50   ~ 0
-Enc_B
-Text Label 4825 7250 2    50   ~ 0
-Enc_A
-Text Label 5425 7250 0    50   ~ 0
-Enc_SW
-$Comp
-L power:GND #PWR0158
-U 1 1 5E3FD1C4
-P 5475 7500
-AR Path="/5DCB7F8C/5E3FD1C4" Ref="#PWR0158"  Part="1" 
-AR Path="/5E0F7128/5E3FD1C4" Ref="#PWR0160"  Part="1" 
-F 0 "#PWR0158" H 5475 7250 50  0001 C CNN
-F 1 "GND" H 5480 7327 50  0000 C CNN
-F 2 "" H 5475 7500 50  0001 C CNN
-F 3 "" H 5475 7500 50  0001 C CNN
-	1    5475 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5475 7500 5475 7450
-Wire Wire Line
-	5475 7450 5425 7450
+Text Label 5425 7450 0    50   ~ 0
+Enc_S1
 $Comp
 L power:GND #PWR0159
 U 1 1 5E400D9F
@@ -1065,8 +1044,128 @@ Wire Wire Line
 	4575 7350 4825 7350
 Text Notes 2750 4925 0    50   ~ 0
 I/O
-Text Label 5425 2575 2    50   ~ 0
-Enc_A
+Text Label 4850 3350 0    50   ~ 0
+Enc_B
 Wire Wire Line
 	3850 7200 3850 7250
+Text Label 4850 1750 0    50   ~ 0
+WS2812_out
+Text Label 4850 1150 0    50   ~ 0
+Enc_A
+Text Label 4850 2050 0    50   ~ 0
+buzz
+Wire Wire Line
+	4850 2050 4750 2050
+Wire Wire Line
+	4850 3350 4750 3350
+Wire Wire Line
+	4850 1150 4750 1150
+Text Label 4850 2150 0    50   ~ 0
+Enc_S1
+Wire Wire Line
+	4850 2150 4750 2150
+$Comp
+L Device:D_Small D25
+U 1 1 5DC9668D
+P 5450 7125
+AR Path="/5DCB7F8C/5DC9668D" Ref="D25"  Part="1" 
+AR Path="/5E0F7128/5DC9668D" Ref="D26"  Part="1" 
+F 0 "D25" V 5525 7150 50  0000 L CNN
+F 1 "BAV70" V 5375 7150 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5450 7125 50  0001 C CNN
+F 3 "~" V 5450 7125 50  0001 C CNN
+	1    5450 7125
+	0    1    -1   0   
+$EndComp
+Text HLabel 5450 7025 1    50   Input ~ 0
+row0
+Wire Wire Line
+	5425 7250 5450 7250
+Wire Wire Line
+	5450 7250 5450 7225
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5DCEA8F4
+P 5125 5375
+AR Path="/5DCB7F8C/5DCEA8F4" Ref="SW3"  Part="1" 
+AR Path="/5E0F7128/5DCEA8F4" Ref="SW4"  Part="1" 
+F 0 "SW3" H 5125 5660 50  0000 C CNN
+F 1 "Reset" H 5125 5569 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 5125 5575 50  0001 C CNN
+F 3 "~" H 5125 5575 50  0001 C CNN
+	1    5125 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 5DD09F85
+P 5375 5425
+AR Path="/5DCB7F8C/5DD09F85" Ref="#PWR0158"  Part="1" 
+AR Path="/5E0F7128/5DD09F85" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0158" H 5375 5175 50  0001 C CNN
+F 1 "GND" H 5380 5252 50  0000 C CNN
+F 2 "" H 5375 5425 50  0001 C CNN
+F 3 "" H 5375 5425 50  0001 C CNN
+	1    5375 5425
+	1    0    0    -1  
+$EndComp
+Text Label 4875 5375 2    50   ~ 0
+~reset
+Wire Wire Line
+	4875 5375 4925 5375
+Wire Wire Line
+	5325 5375 5375 5375
+Wire Wire Line
+	5375 5375 5375 5425
+Wire Wire Line
+	4850 1750 4750 1750
+Text Label 4825 7450 2    50   ~ 0
+Enc_B
+Text Label 4825 7250 2    50   ~ 0
+Enc_A
+$Comp
+L Device:LED_Small D27
+U 1 1 5DD960C9
+P 2925 7150
+AR Path="/5DCB7F8C/5DD960C9" Ref="D27"  Part="1" 
+AR Path="/5E0F7128/5DD960C9" Ref="D28"  Part="1" 
+F 0 "D27" V 2850 7050 50  0000 C CNN
+F 1 "Red LED" H 2875 7275 50  0000 C CNN
+F 2 "" V 2925 7150 50  0001 C CNN
+F 3 "~" V 2925 7150 50  0001 C CNN
+	1    2925 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0162
+U 1 1 5DD9710C
+P 2925 7250
+AR Path="/5DCB7F8C/5DD9710C" Ref="#PWR0162"  Part="1" 
+AR Path="/5E0F7128/5DD9710C" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0162" H 2925 7000 50  0001 C CNN
+F 1 "GND" V 2930 7122 50  0000 R CNN
+F 2 "" H 2925 7250 50  0001 C CNN
+F 3 "" H 2925 7250 50  0001 C CNN
+	1    2925 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5DD99298
+P 2925 6950
+AR Path="/5DCB7F8C/5DD99298" Ref="R3"  Part="1" 
+AR Path="/5E0F7128/5DD99298" Ref="R4"  Part="1" 
+F 0 "R3" V 2850 6775 50  0000 C CNN
+F 1 "220R" V 2850 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2925 6950 50  0001 C CNN
+F 3 "~" H 2925 6950 50  0001 C CNN
+	1    2925 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2925 6850 2925 6675
+Wire Wire Line
+	2925 6675 2850 6675
+Text Label 2850 6675 0    50   ~ 0
+DFU_LED
 $EndSCHEMATC

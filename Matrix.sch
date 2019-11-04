@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:MMboard1-cache
-EELAYER 30 0
+LIBS:mystic_split40-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -28,21 +28,6 @@ F 2 "Ai03-MX:MXOnly-1U-Hotswap" H 4125 2775 60  0001 C CNN
 F 3 "" H 4125 2775 60  0001 C CNN
 	1    4750 2800
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_x2_KCom_AAK D?
-U 1 1 5DC40EEA
-P 4950 3175
-AR Path="/5DC40EEA" Ref="D?"  Part="1" 
-AR Path="/5DBF64D6/5DC40EEA" Ref="D5"  Part="1" 
-AR Path="/5E0FF211/5DC40EEA" Ref="D?"  Part="1" 
-AR Path="/5E103021/5DC40EEA" Ref="D15"  Part="1" 
-F 0 "D5" V 5200 3200 50  0000 L CNN
-F 1 "BAV70" H 4825 3275 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 3175 50  0001 C CNN
-F 3 "~" H 4950 3175 50  0001 C CNN
-	1    4950 3175
-	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4900 3600 4950 3600
@@ -91,16 +76,16 @@ $EndComp
 $Comp
 L Device:D_x2_KCom_AAK D?
 U 1 1 5DC4E722
-P 4950 4350
+P 6000 4350
 AR Path="/5DC4E722" Ref="D?"  Part="1" 
 AR Path="/5DBF64D6/5DC4E722" Ref="D10"  Part="1" 
 AR Path="/5E0FF211/5DC4E722" Ref="D?"  Part="1" 
 AR Path="/5E103021/5DC4E722" Ref="D20"  Part="1" 
-F 0 "D10" V 5200 4375 50  0000 L CNN
-F 1 "BAV70" H 4825 4450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 4350 50  0001 C CNN
-F 3 "~" H 4950 4350 50  0001 C CNN
-	1    4950 4350
+F 0 "D10" V 6250 4375 50  0000 L CNN
+F 1 "BAV70" H 5875 4450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6000 4350 50  0001 C CNN
+F 3 "~" H 6000 4350 50  0001 C CNN
+	1    6000 4350
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -152,21 +137,6 @@ F 3 "" H 4650 2775 60  0001 C CNN
 	1    5275 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_x2_KCom_AAK D?
-U 1 1 5DC54A9C
-P 5475 3175
-AR Path="/5DC54A9C" Ref="D?"  Part="1" 
-AR Path="/5DBF64D6/5DC54A9C" Ref="D6"  Part="1" 
-AR Path="/5E0FF211/5DC54A9C" Ref="D?"  Part="1" 
-AR Path="/5E103021/5DC54A9C" Ref="D16"  Part="1" 
-F 0 "D6" V 5725 3200 50  0000 L CNN
-F 1 "BAV70" H 5350 3275 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5475 3175 50  0001 C CNN
-F 3 "~" H 5475 3175 50  0001 C CNN
-	1    5475 3175
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	5425 3600 5475 3600
 Wire Wire Line
@@ -214,16 +184,16 @@ $EndComp
 $Comp
 L Device:D_x2_KCom_AAK D?
 U 1 1 5DC54AC1
-P 5475 4350
+P 5475 3175
 AR Path="/5DC54AC1" Ref="D?"  Part="1" 
 AR Path="/5DBF64D6/5DC54AC1" Ref="D11"  Part="1" 
 AR Path="/5E0FF211/5DC54AC1" Ref="D?"  Part="1" 
 AR Path="/5E103021/5DC54AC1" Ref="D21"  Part="1" 
-F 0 "D11" V 5725 4375 50  0000 L CNN
-F 1 "BAV70" H 5350 4450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5475 4350 50  0001 C CNN
-F 3 "~" H 5475 4350 50  0001 C CNN
-	1    5475 4350
+F 0 "D11" V 5725 3200 50  0000 L CNN
+F 1 "BAV70" H 5350 3275 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5475 3175 50  0001 C CNN
+F 3 "~" H 5475 3175 50  0001 C CNN
+	1    5475 3175
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -295,21 +265,6 @@ F 3 "" H 5175 2775 60  0001 C CNN
 	1    5800 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_x2_KCom_AAK D?
-U 1 1 5DC60A34
-P 6000 3175
-AR Path="/5DC60A34" Ref="D?"  Part="1" 
-AR Path="/5DBF64D6/5DC60A34" Ref="D7"  Part="1" 
-AR Path="/5E0FF211/5DC60A34" Ref="D?"  Part="1" 
-AR Path="/5E103021/5DC60A34" Ref="D17"  Part="1" 
-F 0 "D7" V 6250 3200 50  0000 L CNN
-F 1 "BAV70" H 5875 3275 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6000 3175 50  0001 C CNN
-F 3 "~" H 6000 3175 50  0001 C CNN
-	1    6000 3175
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	5950 3600 6000 3600
 Wire Wire Line
@@ -357,16 +312,16 @@ $EndComp
 $Comp
 L Device:D_x2_KCom_AAK D?
 U 1 1 5DC60A59
-P 6000 4350
+P 5475 4350
 AR Path="/5DC60A59" Ref="D?"  Part="1" 
 AR Path="/5DBF64D6/5DC60A59" Ref="D12"  Part="1" 
 AR Path="/5E0FF211/5DC60A59" Ref="D?"  Part="1" 
 AR Path="/5E103021/5DC60A59" Ref="D22"  Part="1" 
-F 0 "D12" V 6250 4375 50  0000 L CNN
-F 1 "BAV70" H 5875 4450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6000 4350 50  0001 C CNN
-F 3 "~" H 6000 4350 50  0001 C CNN
-	1    6000 4350
+F 0 "D12" V 5725 4375 50  0000 L CNN
+F 1 "BAV70" H 5350 4450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5475 4350 50  0001 C CNN
+F 3 "~" H 5475 4350 50  0001 C CNN
+	1    5475 4350
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -418,21 +373,6 @@ F 3 "" H 5700 2775 60  0001 C CNN
 	1    6325 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_x2_KCom_AAK D?
-U 1 1 5DC60A81
-P 6525 3175
-AR Path="/5DC60A81" Ref="D?"  Part="1" 
-AR Path="/5DBF64D6/5DC60A81" Ref="D8"  Part="1" 
-AR Path="/5E0FF211/5DC60A81" Ref="D?"  Part="1" 
-AR Path="/5E103021/5DC60A81" Ref="D18"  Part="1" 
-F 0 "D8" V 6775 3200 50  0000 L CNN
-F 1 "BAV70" H 6400 3275 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6525 3175 50  0001 C CNN
-F 3 "~" H 6525 3175 50  0001 C CNN
-	1    6525 3175
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	6475 3600 6525 3600
 Wire Wire Line
@@ -476,21 +416,6 @@ F 2 "Ai03-MX:MXOnly-1U-Hotswap" H 5700 3950 60  0001 C CNN
 F 3 "" H 5700 3950 60  0001 C CNN
 	1    6325 3975
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_x2_KCom_AAK D?
-U 1 1 5DC60AA6
-P 6525 4350
-AR Path="/5DC60AA6" Ref="D?"  Part="1" 
-AR Path="/5DBF64D6/5DC60AA6" Ref="D13"  Part="1" 
-AR Path="/5E0FF211/5DC60AA6" Ref="D?"  Part="1" 
-AR Path="/5E103021/5DC60AA6" Ref="D23"  Part="1" 
-F 0 "D13" V 6775 4375 50  0000 L CNN
-F 1 "BAV70" H 6400 4450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6525 4350 50  0001 C CNN
-F 3 "~" H 6525 4350 50  0001 C CNN
-	1    6525 4350
-	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	6475 4775 6525 4775
@@ -565,21 +490,6 @@ F 3 "" H 6225 2775 60  0001 C CNN
 	1    6850 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_x2_KCom_AAK D?
-U 1 1 5DC6C6C7
-P 7050 3175
-AR Path="/5DC6C6C7" Ref="D?"  Part="1" 
-AR Path="/5DBF64D6/5DC6C6C7" Ref="D9"  Part="1" 
-AR Path="/5E0FF211/5DC6C6C7" Ref="D?"  Part="1" 
-AR Path="/5E103021/5DC6C6C7" Ref="D19"  Part="1" 
-F 0 "D9" V 7300 3200 50  0000 L CNN
-F 1 "BAV70" H 6925 3275 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7050 3175 50  0001 C CNN
-F 3 "~" H 7050 3175 50  0001 C CNN
-	1    7050 3175
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	7000 3600 7050 3600
 Wire Wire Line
@@ -623,21 +533,6 @@ F 2 "Ai03-MX:MXOnly-1U-Hotswap" H 6225 3950 60  0001 C CNN
 F 3 "" H 6225 3950 60  0001 C CNN
 	1    6850 3975
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_x2_KCom_AAK D?
-U 1 1 5DC6C6EC
-P 7050 4350
-AR Path="/5DC6C6EC" Ref="D?"  Part="1" 
-AR Path="/5DBF64D6/5DC6C6EC" Ref="D14"  Part="1" 
-AR Path="/5E0FF211/5DC6C6EC" Ref="D?"  Part="1" 
-AR Path="/5E103021/5DC6C6EC" Ref="D24"  Part="1" 
-F 0 "D14" V 7300 4375 50  0000 L CNN
-F 1 "BAV70" H 6925 4450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7050 4350 50  0001 C CNN
-F 3 "~" H 7050 4350 50  0001 C CNN
-	1    7050 4350
-	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	7000 4775 7050 4775
@@ -732,4 +627,109 @@ Wire Wire Line
 	6800 4975 6700 4975
 Wire Wire Line
 	6700 4975 6700 4525
+$Comp
+L Device:D_x2_KCom_AAK D?
+U 1 1 5DC60AA6
+P 4950 3175
+AR Path="/5DC60AA6" Ref="D?"  Part="1" 
+AR Path="/5DBF64D6/5DC60AA6" Ref="D13"  Part="1" 
+AR Path="/5E0FF211/5DC60AA6" Ref="D?"  Part="1" 
+AR Path="/5E103021/5DC60AA6" Ref="D23"  Part="1" 
+F 0 "D13" V 5200 3200 50  0000 L CNN
+F 1 "BAV70" H 4825 3275 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 3175 50  0001 C CNN
+F 3 "~" H 4950 3175 50  0001 C CNN
+	1    4950 3175
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D?
+U 1 1 5DC60A34
+P 6525 3175
+AR Path="/5DC60A34" Ref="D?"  Part="1" 
+AR Path="/5DBF64D6/5DC60A34" Ref="D7"  Part="1" 
+AR Path="/5E0FF211/5DC60A34" Ref="D?"  Part="1" 
+AR Path="/5E103021/5DC60A34" Ref="D17"  Part="1" 
+F 0 "D7" V 6775 3200 50  0000 L CNN
+F 1 "BAV70" H 6400 3275 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6525 3175 50  0001 C CNN
+F 3 "~" H 6525 3175 50  0001 C CNN
+	1    6525 3175
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D?
+U 1 1 5DC60A81
+P 6525 4350
+AR Path="/5DC60A81" Ref="D?"  Part="1" 
+AR Path="/5DBF64D6/5DC60A81" Ref="D8"  Part="1" 
+AR Path="/5E0FF211/5DC60A81" Ref="D?"  Part="1" 
+AR Path="/5E103021/5DC60A81" Ref="D18"  Part="1" 
+F 0 "D8" V 6775 4375 50  0000 L CNN
+F 1 "BAV70" H 6400 4450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6525 4350 50  0001 C CNN
+F 3 "~" H 6525 4350 50  0001 C CNN
+	1    6525 4350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D?
+U 1 1 5DC6C6EC
+P 4950 4350
+AR Path="/5DC6C6EC" Ref="D?"  Part="1" 
+AR Path="/5DBF64D6/5DC6C6EC" Ref="D14"  Part="1" 
+AR Path="/5E0FF211/5DC6C6EC" Ref="D?"  Part="1" 
+AR Path="/5E103021/5DC6C6EC" Ref="D24"  Part="1" 
+F 0 "D14" V 5200 4375 50  0000 L CNN
+F 1 "BAV70" H 4825 4450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 4350 50  0001 C CNN
+F 3 "~" H 4950 4350 50  0001 C CNN
+	1    4950 4350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D?
+U 1 1 5DC54A9C
+P 7050 4350
+AR Path="/5DC54A9C" Ref="D?"  Part="1" 
+AR Path="/5DBF64D6/5DC54A9C" Ref="D6"  Part="1" 
+AR Path="/5E0FF211/5DC54A9C" Ref="D?"  Part="1" 
+AR Path="/5E103021/5DC54A9C" Ref="D16"  Part="1" 
+F 0 "D6" V 7300 4375 50  0000 L CNN
+F 1 "BAV70" H 6925 4450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7050 4350 50  0001 C CNN
+F 3 "~" H 7050 4350 50  0001 C CNN
+	1    7050 4350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D?
+U 1 1 5DC6C6C7
+P 6000 3175
+AR Path="/5DC6C6C7" Ref="D?"  Part="1" 
+AR Path="/5DBF64D6/5DC6C6C7" Ref="D9"  Part="1" 
+AR Path="/5E0FF211/5DC6C6C7" Ref="D?"  Part="1" 
+AR Path="/5E103021/5DC6C6C7" Ref="D19"  Part="1" 
+F 0 "D9" V 6250 3200 50  0000 L CNN
+F 1 "BAV70" H 5875 3275 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6000 3175 50  0001 C CNN
+F 3 "~" H 6000 3175 50  0001 C CNN
+	1    6000 3175
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D?
+U 1 1 5DC40EEA
+P 7050 3175
+AR Path="/5DC40EEA" Ref="D?"  Part="1" 
+AR Path="/5DBF64D6/5DC40EEA" Ref="D5"  Part="1" 
+AR Path="/5E0FF211/5DC40EEA" Ref="D?"  Part="1" 
+AR Path="/5E103021/5DC40EEA" Ref="D15"  Part="1" 
+F 0 "D5" V 7300 3200 50  0000 L CNN
+F 1 "BAV70" H 6925 3275 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7050 3175 50  0001 C CNN
+F 3 "~" H 7050 3175 50  0001 C CNN
+	1    7050 3175
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
