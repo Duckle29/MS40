@@ -1,4 +1,4 @@
-update=2019-11-04T13:49:13 CET
+update=2019-11-05 01:46:28
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=mystic_split40.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -68,7 +68,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
