@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.8)
+    (last_trace_width 0.2)
     (user_trace_width 0.4)
     (user_trace_width 0.6)
     (user_trace_width 0.8)
@@ -4087,7 +4087,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 0))
     )
-    (model ${KIPRJMOD}/ignored/DSA_Keycap_CherryMX.step
+    (model ${KIPRJMOD}/ignored/DSA_Keycap_CherryMX.stepp
       (offset (xyz 0 0 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -6417,7 +6417,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 0))
     )
-    (model ${KIPRJMOD}/ignored/DSA_Keycap_CherryMX.step
+    (model ${KIPRJMOD}/ignored/DSA_Keycap_CherryMX.stepp
       (offset (xyz 0 0 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -6898,7 +6898,7 @@
     (effects (font (size 1.2 1.2) (thickness 0.18) italic) (justify left))
   )
   (dimension 95.25 (width 0.15) (layer Dwgs.User) (tstamp 5DC279C0)
-    (gr_text "95.250 mm" (at 193.125 115.35) (layer Dwgs.User) (tstamp 5DC34CFB)
+    (gr_text "95.250 mm" (at 193.125 115.35) (layer Dwgs.User) (tstamp 5DC279C0)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 240.75 110.5) (xy 240.75 114.636421)))
@@ -6916,7 +6916,7 @@
   (gr_arc (start 239.75 13.7) (end 240.75 13.7) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DC279BA))
   (gr_line (start 240.75 110.5) (end 240.75 13.7) (layer Edge.Cuts) (width 0.05) (tstamp 5DC279B9))
   (dimension 98.8 (width 0.15) (layer Dwgs.User) (tstamp 5DC279B7)
-    (gr_text "98.800 mm" (at 244.7 62.1 90) (layer Dwgs.User) (tstamp 5DC33B19)
+    (gr_text "98.800 mm" (at 244.7 62.1 90) (layer Dwgs.User) (tstamp 5DC279B7)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 239.75 12.7) (xy 243.986421 12.7)))
@@ -8339,11 +8339,6 @@
   (segment (start 57.09 14.6) (end 60.775 14.6) (width 0.2) (layer B.Cu) (net 54))
   (segment (start 56.79 14.9) (end 57.09 14.6) (width 0.2) (layer B.Cu) (net 54))
   (segment (start 56.79 16.35) (end 56.79 14.9) (width 0.2) (layer B.Cu) (net 54))
-  (segment (start 162.34 14.6) (end 166.025 14.6) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F319))
-  (segment (start 162.04 14.9) (end 162.34 14.6) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31A))
-  (segment (start 162.04 16.35) (end 162.04 14.9) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31B))
-  (segment (start 167.15 15.725) (end 166.025 14.6) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31C))
-  (segment (start 167.15 16.9) (end 167.15 15.725) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31D))
   (via (at 65.6 28.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 55))
   (segment (start 65.1 26.8) (end 65.1 28) (width 0.2) (layer F.Cu) (net 55))
   (segment (start 65.1 28) (end 65.6 28.5) (width 0.2) (layer F.Cu) (net 55))
@@ -8960,6 +8955,11 @@
   (segment (start 188.55 21.8) (end 188.55 20.7) (width 0.2) (layer B.Cu) (net 101) (tstamp 5DC278B3))
   (via (at 185.05 14.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 101) (tstamp 5DC27A21))
   (via (at 171.45 24.4) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 101) (tstamp 5DC27A23))
+  (segment (start 162.34 14.6) (end 166.025 14.6) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F319))
+  (segment (start 162.04 14.9) (end 162.34 14.6) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31A))
+  (segment (start 162.04 16.35) (end 162.04 14.9) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31B))
+  (segment (start 167.15 15.725) (end 166.025 14.6) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31C))
+  (segment (start 167.15 16.9) (end 167.15 15.725) (width 0.2) (layer B.Cu) (net 102) (tstamp 5DC2F31D))
   (segment (start 167.15 15.4) (end 167.15 16.9) (width 0.2) (layer F.Cu) (net 102) (tstamp 5DC27876))
   (via (at 167.15 16.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 102) (tstamp 5DC27A11))
   (segment (start 167.95 56.7) (end 167.35 56.7) (width 0.2) (layer B.Cu) (net 103) (tstamp 5DC278B9))
