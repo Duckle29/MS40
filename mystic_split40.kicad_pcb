@@ -18,7 +18,7 @@
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user hide)
+    (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
@@ -370,7 +370,7 @@
     (at 250.55 32.85 180)
     (descr "Imported from kiwi.svg")
     (tags svg2mod)
-    (attr smd)
+    (attr virtual)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -738,6 +738,7 @@
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5E0F7128/5DD9BB04)
+    (attr virtual)
     (fp_text reference J35 (at 0 2.33 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3528,6 +3529,7 @@
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5E0F7128/5DD77B40)
+    (attr virtual)
     (fp_text reference J33 (at 0 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3668,7 +3670,7 @@
     (at 125.3 32.85 180)
     (descr "Imported from kiwi.svg")
     (tags svg2mod)
-    (attr smd)
+    (attr virtual)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -5999,6 +6001,7 @@
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5DCB7F8C/5DD9BB04)
+    (attr virtual)
     (fp_text reference J17 (at 0 2.33 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -6086,6 +6089,7 @@
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5DCB7F8C/5DD77B40)
+    (attr virtual)
     (fp_text reference J15 (at 0 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10584,12 +10588,6 @@
     )
     (filled_polygon
       (pts
-        (xy 77.387631 29.512369) (xy 77.465289 29.576101) (xy 77.54 29.616035) (xy 77.540001 34.097329) (xy 77.16 34.47733)
-        (xy 77.16 29.616035) (xy 77.234711 29.576101) (xy 77.312369 29.512369) (xy 77.35 29.466515)
-      )
-    )
-    (filled_polygon
-      (pts
         (xy 80.887631 29.512369) (xy 80.965289 29.576101) (xy 81.040001 29.616036) (xy 81.04 34.09733) (xy 80.66 34.47733)
         (xy 80.66 29.616035) (xy 80.734711 29.576101) (xy 80.812369 29.512369) (xy 80.85 29.466515)
       )
@@ -10598,6 +10596,12 @@
       (pts
         (xy 84.387631 29.512369) (xy 84.465289 29.576101) (xy 84.540001 29.616036) (xy 84.54 34.09733) (xy 84.16 34.47733)
         (xy 84.16 29.616035) (xy 84.234711 29.576101) (xy 84.312369 29.512369) (xy 84.35 29.466515)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 77.387631 29.512369) (xy 77.465289 29.576101) (xy 77.54 29.616035) (xy 77.540001 34.097329) (xy 77.16 34.47733)
+        (xy 77.16 29.616035) (xy 77.234711 29.576101) (xy 77.312369 29.512369) (xy 77.35 29.466515)
       )
     )
     (filled_polygon
