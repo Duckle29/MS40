@@ -96,25 +96,16 @@ Connection ~ 2600 1850
 $Comp
 L power:GND #PWR0105
 U 1 1 5DCBF496
-P 1700 3150
+P 1700 3325
 AR Path="/5DCB7F8C/5DCBF496" Ref="#PWR0105"  Part="1" 
 AR Path="/5E0F7128/5DCBF496" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0105" H 1700 2900 50  0001 C CNN
-F 1 "GND" H 1705 2977 50  0000 C CNN
-F 2 "" H 1700 3150 50  0001 C CNN
-F 3 "" H 1700 3150 50  0001 C CNN
-	1    1700 3150
+F 0 "#PWR0105" H 1700 3075 50  0001 C CNN
+F 1 "GND" H 1705 3152 50  0000 C CNN
+F 2 "" H 1700 3325 50  0001 C CNN
+F 3 "" H 1700 3325 50  0001 C CNN
+	1    1700 3325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 3050 1700 3100
-Wire Wire Line
-	1700 3100 1400 3100
-Wire Wire Line
-	1400 3100 1400 3050
-Connection ~ 1700 3100
-Wire Wire Line
-	1700 3100 1700 3150
 $Comp
 L Device:R_Small R9
 U 1 1 5DCC3E69
@@ -1191,4 +1182,51 @@ F 3 "~" H 4950 2650 50  0001 C CNN
 $EndComp
 Text Notes 2400 1525 0    50   ~ 0
 1A hold
+$Comp
+L Device:C_Small C?
+U 1 1 5DC857C3
+P 1550 3300
+AR Path="/5DCB7F8C/5DC857C3" Ref="C?"  Part="1" 
+AR Path="/5E0F7128/5DC857C3" Ref="C?"  Part="1" 
+F 0 "C?" V 1350 3425 50  0000 R CNN
+F 1 "4.7nF" V 1425 3375 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 3300 50  0001 C CNN
+F 3 "~" H 1550 3300 50  0001 C CNN
+	1    1550 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 3050 1700 3150
+$Comp
+L Device:R_Small R?
+U 1 1 5DCA8592
+P 1550 3150
+AR Path="/5DCB7F8C/5DCA8592" Ref="R?"  Part="1" 
+AR Path="/5E0F7128/5DCA8592" Ref="R?"  Part="1" 
+F 0 "R?" V 1400 3150 50  0000 C CNN
+F 1 "1M" V 1475 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 3150 50  0001 C CNN
+F 3 "~" H 1550 3150 50  0001 C CNN
+	1    1550 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3150 1450 3150
+Wire Wire Line
+	1400 3050 1400 3150
+Wire Wire Line
+	1650 3150 1700 3150
+Wire Wire Line
+	1400 3150 1400 3300
+Wire Wire Line
+	1400 3300 1450 3300
+Connection ~ 1400 3150
+Wire Wire Line
+	1650 3300 1700 3300
+Wire Wire Line
+	1700 3300 1700 3150
+Connection ~ 1700 3150
+Wire Wire Line
+	1700 3325 1700 3300
+Connection ~ 1700 3300
 $EndSCHEMATC
