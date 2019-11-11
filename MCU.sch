@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J7
-U 1 1 5DCB829A
-P 1700 2150
-AR Path="/5DCB7F8C/5DCB829A" Ref="J7"  Part="1" 
-AR Path="/5E0F7128/5DCB829A" Ref="J25"  Part="1" 
-F 0 "J7" H 1700 2975 50  0000 C CNN
-F 1 "TYPE-C-31-M-12" H 1700 2900 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1850 2150 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1850 2150 50  0001 C CNN
-	1    1700 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R6
 U 1 1 5DCBB148
 P 2450 1750
@@ -96,14 +83,14 @@ Connection ~ 2600 1850
 $Comp
 L power:GND #PWR0105
 U 1 1 5DCBF496
-P 1700 3325
+P 1700 3150
 AR Path="/5DCB7F8C/5DCBF496" Ref="#PWR0105"  Part="1" 
 AR Path="/5E0F7128/5DCBF496" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0105" H 1700 3075 50  0001 C CNN
-F 1 "GND" H 1705 3152 50  0000 C CNN
-F 2 "" H 1700 3325 50  0001 C CNN
-F 3 "" H 1700 3325 50  0001 C CNN
-	1    1700 3325
+F 0 "#PWR0105" H 1700 2900 50  0001 C CNN
+F 1 "GND" H 1705 2977 50  0000 C CNN
+F 2 "" H 1700 3150 50  0001 C CNN
+F 3 "" H 1700 3150 50  0001 C CNN
+	1    1700 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -535,9 +522,9 @@ Wire Wire Line
 	4100 6225 4050 6225
 Text Label 4050 6225 2    50   ~ 0
 WS2812_out
-Text Label 3450 7100 2    50   ~ 0
-SDA
 Text Label 3450 7000 2    50   ~ 0
+SDA
+Text Label 3450 7100 2    50   ~ 0
 SCL
 Text Label 3900 7000 2    50   ~ 0
 Rr_2
@@ -819,9 +806,9 @@ Wire Wire Line
 	3450 7000 3300 7000
 Wire Wire Line
 	3300 7100 3450 7100
-Text HLabel 3300 7000 0    50   UnSpc ~ 0
-SCL
 Text HLabel 3300 7100 0    50   UnSpc ~ 0
+SCL
+Text HLabel 3300 7000 0    50   UnSpc ~ 0
 SDA
 $Comp
 L Device:Crystal_GND2_Small Y1
@@ -1182,51 +1169,52 @@ F 3 "~" H 4950 2650 50  0001 C CNN
 $EndComp
 Text Notes 2400 1525 0    50   ~ 0
 1A hold
+Wire Wire Line
+	1700 3050 1700 3100
 $Comp
-L Device:C_Small C?
-U 1 1 5DC857C3
-P 1550 3300
-AR Path="/5DCB7F8C/5DC857C3" Ref="C?"  Part="1" 
-AR Path="/5E0F7128/5DC857C3" Ref="C?"  Part="1" 
-F 0 "C?" V 1350 3425 50  0000 R CNN
-F 1 "4.7nF" V 1425 3375 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 3300 50  0001 C CNN
-F 3 "~" H 1550 3300 50  0001 C CNN
-	1    1550 3300
-	0    -1   -1   0   
+L Connector:USB_C_Receptacle_USB2.0 J7
+U 1 1 5DCB829A
+P 1700 2150
+AR Path="/5DCB7F8C/5DCB829A" Ref="J7"  Part="1" 
+AR Path="/5E0F7128/5DCB829A" Ref="J25"  Part="1" 
+F 0 "J7" H 1700 2975 50  0000 C CNN
+F 1 "TYPE-C-31-M-12" H 1700 2900 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1850 2150 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1850 2150 50  0001 C CNN
+	1    1700 2150
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 3050 1700 3150
+	1400 3050 1400 3100
+Wire Wire Line
+	1400 3100 1700 3100
+Connection ~ 1700 3100
+Wire Wire Line
+	1700 3100 1700 3150
 $Comp
-L Device:R_Small R?
-U 1 1 5DCA8592
-P 1550 3150
-AR Path="/5DCB7F8C/5DCA8592" Ref="R?"  Part="1" 
-AR Path="/5E0F7128/5DCA8592" Ref="R?"  Part="1" 
-F 0 "R?" V 1400 3150 50  0000 C CNN
-F 1 "1M" V 1475 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 3150 50  0001 C CNN
-F 3 "~" H 1550 3150 50  0001 C CNN
-	1    1550 3150
-	0    1    1    0   
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DCC64E4
+P 4950 3550
+AR Path="/5DCB7F8C/5DCC64E4" Ref="J?"  Part="1" 
+AR Path="/5E0F7128/5DCC64E4" Ref="J?"  Part="1" 
+F 0 "J?" H 4900 3650 50  0001 L CNN
+F 1 "F0" H 5025 3575 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4950 3550 50  0001 C CNN
+F 3 "~" H 4950 3550 50  0001 C CNN
+	1    4950 3550
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 3150 1450 3150
-Wire Wire Line
-	1400 3050 1400 3150
-Wire Wire Line
-	1650 3150 1700 3150
-Wire Wire Line
-	1400 3150 1400 3300
-Wire Wire Line
-	1400 3300 1450 3300
-Connection ~ 1400 3150
-Wire Wire Line
-	1650 3300 1700 3300
-Wire Wire Line
-	1700 3300 1700 3150
-Connection ~ 1700 3150
-Wire Wire Line
-	1700 3325 1700 3300
-Connection ~ 1700 3300
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DCC6DF3
+P 4950 3650
+AR Path="/5DCB7F8C/5DCC6DF3" Ref="J?"  Part="1" 
+AR Path="/5E0F7128/5DCC6DF3" Ref="J?"  Part="1" 
+F 0 "J?" H 4900 3750 50  0001 L CNN
+F 1 "F1" H 5025 3675 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4950 3650 50  0001 C CNN
+F 3 "~" H 4950 3650 50  0001 C CNN
+	1    4950 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
