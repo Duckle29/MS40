@@ -2,7 +2,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/2268).
 
 # MS40
 
-[Interactive BOM](https://duckle29.github.io/Mystic-Split40/ibom.html)
+[Interactive BOM](https://duckle29.github.io/MS40/ibom.html)
 
 ![top render](renders/top.png)
 ![bottom render](renders/bot.png)
